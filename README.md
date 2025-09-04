@@ -1,7 +1,7 @@
 # NY OCM Practitioner List Job - Workflow Flowchart
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Application Start] --> B[BatchApplication.main]
     B --> C[Spring Boot Context Initialization]
     C --> D[Load Configuration Properties]
